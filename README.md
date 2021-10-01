@@ -1,9 +1,8 @@
 # Actor
-The source code sadly isn't public yet-- I'm making sure that I can publish it and get it hosted somewhere, keep it updated and all that, without leaking the tokens. It'll be available ASAP <3
-
-Actor is the best activities bot you'll ever use.
-
 [Add the bot to your server now](https://discord.com/api/oauth2/authorize?client_id=891437279858540554&permissions=1&scope=bot%20applications.commands&response=code), or [join the server](https://top.gg/servers/887291094885339147)!
+
+## What is Actor?
+Actor is the best activities bot you'll ever use.
 
 It supports more Discord activities than any other bot:
 - *Actor*: **At least 12 Discord activities**, 23 at most
@@ -16,6 +15,27 @@ It supports more Discord activities than any other bot:
 And even if the bot doesn't update, *it doesn't have to*. Actor comes with custom activity support, so if you know an activity ID, you can use it.
 
 Actor also comes with permissions. Don't want a specific role using it, or you want to prevent your server from using an activity? Use `/settings`. *Requires you to be the owner of the server, or have the Manage Server permission. If you can run `/settings`, you can use every activity anyway.*
+
+## Self-hosting
+You definitely won't need this guide if you're an average user. But *especially*:
+- If you don't know what self-hosting is
+- You don't have basic knowledge of Node.js and npm
+- You don't know how to navigate Discord's developer portal
+- You don't know how to use the terminal
+
+But if you're looking to self-host, here you go.
+
+First, install the dependencies: `npm install discord.js @discordjs/builders @discordjs/rest discord-api-types enmap bufferutil discord/erlpack utf-8-validate zlib-sync`
+
+If you're looking to tidy up the code, also install: `npm install eslint prettier --save-dev`
+
+Open up `config_tmp.json`. Don't worry about renaming it, the bot does that for you. 
+- Put your bot token in `token` and the ID of your application in `client`. 
+- The `feedback` and `errors` options use webhooks. If you want to enable them, `id` and `token` for each are taken from the webhook URL: `https://discord.com/api/webhooks/{id}/{token}`-- but they're set to `false` to help make bot hosting easier
+
+Do `node commands` to set up slash commands, then `node bot` to start the bot. `config_tmp.json` should rename to `config.json`, and the bot should start up.
+
+With `errors` disabled, errors will not be logged to the console, and with `feedback` disabled, `/feedback` will not work. The former is to protect privacy, as `errors` is tied to automatic error reporting.
 
 ## Thank you
 - [advaith](https://github.com/advaith1)

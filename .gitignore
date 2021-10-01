@@ -1,0 +1,6 @@
+node_modules
+data/enmap.sqlite
+data/enmap.sqlite-shm
+data/enmap.sqlite-wal
+config.json
+package-lock.json

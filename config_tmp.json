@@ -1,0 +1,17 @@
+{
+    "secrets":
+    {
+        "token": "",
+        "client": "",
+        "feedback": {
+            "enabled": false,
+            "id": "",
+            "token": ""
+        },
+        "errors": {
+            "enabled": false,
+            "id": "",
+            "token": ""
+        }
+    }
+}

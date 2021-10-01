@@ -1,0 +1,28 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbmagination/Actor.git"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "bufferutil": "^4.0.3",
+    "discord-api-types": "^0.20.2",
+    "discord.js": "^13.1.0",
+    "enmap": "^5.8.7",
+    "erlpack": "github:discord/erlpack",
+    "sodium": "^3.0.2",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "2.4.1"
+  }
+}
