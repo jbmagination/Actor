@@ -24,18 +24,23 @@ You definitely won't need this guide if you're an average user. But *especially*
 - You don't know how to use the terminal
 
 But if you're looking to self-host, here you go.
-
-First, install the dependencies: `npm install discord.js @discordjs/builders @discordjs/rest discord-api-types enmap bufferutil discord/erlpack utf-8-validate zlib-sync`
-
-If you're looking to tidy up the code, also install: `npm install eslint prettier --save-dev`
+```
+npm install discord.js @discordjs/builders @discordjs/rest discord-api-types enmap bufferutil discord/erlpack utf-8-validate zlib-sync
+npm install eslint prettier --save-dev
+```
 
 Open up `config_tmp.json`. Don't worry about renaming it, the bot does that for you. 
-- Put your bot token in `token` and the ID of your application in `client`. 
-- The `feedback` and `errors` options use webhooks. If you want to enable them, `id` and `token` for each are taken from the webhook URL: `https://discord.com/api/webhooks/{id}/{token}`-- but they're set to `false` to help make bot hosting easier
 
-Do `node commands` to set up slash commands, then `node bot` to start the bot. `config_tmp.json` should rename to `config.json`, and the bot should start up.
+Put your bot token in `token` and the ID of your application in `client`. 
+
+The `feedback` and `errors` options use webhooks. If you want to enable them, `id` and `token` for each are taken from the webhook URL: `https://discord.com/api/webhooks/{id}/{token}`-- but they're set to `false` to help make bot hosting easier.
 
 With `errors` disabled, errors will not be logged to the console, and with `feedback` disabled, `/feedback` will not work. The former is to protect privacy, as `errors` is tied to automatic error reporting.
+
+```
+node commands
+node start
+```
 
 ## Thank you
 - [advaith](https://github.com/advaith1)
