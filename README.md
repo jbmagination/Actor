@@ -7,11 +7,11 @@ Actor is the best activities bot you'll ever use.
 
 It supports more Discord activities than any other bot:
 - *Actor*: **At least 12 Discord activities**, 23 at most
-- *advaith's Activities bot*: 8 Discord activities
-- *Discord Games Lab*: 8 Discord activities
-- *Youtube Together*: At least 5 Discord activities, 7 at most
-- *Philbert*: 5 activities
-- *Voice Activities*: Most likely 5 Discord activities (was unable to test or get a full commands list)
+- *[advaith](https://github.com/advaith1)'s [Activities bot](https://github.com/advaith1/activities)*: 8 Discord activities
+- *[Discord Games Lab](https://discord.gg/discordgameslab)*: 8 Discord activities
+- *[Youtube Together](https://top.gg/bot/831408659262472222)*: At least 5 Discord activities, 7 at most
+- *[Philbert](https://philbert.fish)*: 5 Discord activities
+- *[Voice Activities](https://arealwant.github.io/VoiceActivities/)*: 5 Discord activities
 
 And even if the bot doesn't update, *it doesn't have to*. Actor comes with custom activity support, so if you know an activity ID, you can use it.
 
