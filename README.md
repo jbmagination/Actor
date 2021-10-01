@@ -20,6 +20,7 @@ Actor also comes with permissions. Don't want a specific role using it, or you w
 ## Thank you
 - [advaith](https://github.com/advaith1)
 - [Rauf](https://github.com/ItsRauf)
+- [Evie](https://github.com/eslachance)
 - [derpystuff](https://gitlab.com/derpystuff)
 - [CommandLineFox](https://github.com/CommandLineFox)
 - [discord.js](https://github.com/discordjs/discord.js)
