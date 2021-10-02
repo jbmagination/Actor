@@ -47,7 +47,7 @@ client.on('interactionCreate', async interaction => {
 			});
 		}
 		// Letting the user know about the error, regardless (if all else fails, "the interaction failed" still does the trick)
-		await interaction.reply({ content: `An error occurred:\n\`\`\`${error}\`\`\`\nNot what you expected? [Let me know](https://github.com/jbmagination/Actor/issues).`, ephemeral: true });
+		await interaction.reply({ content: `An error occurred:\n\`\`\`${error}\`\`\`\nNot what you expected? [Let me know](https://discord.gg/A3A9cMc7Uy).`, ephemeral: true });
 	}
 });
 
