@@ -70,7 +70,7 @@ module.exports = {
 		}
 
 		// Permissions
-		if (!((interaction.user.id == interaction.guild.ownerId) || interaction.user.permissions.has(Permissions.FLAGS.MANAGE_GUILD))) {
+		if (!((interaction.user.id == interaction.guild.ownerId) || interaction.member.permissions.has(Permissions.FLAGS.MANAGE_GUILD))) {
 			if (guildSettings.get(interaction.guild.id, interaction.options.getString('activity') == false) || interaction.client.guilds.cache.get(interaction.guildId).members.cache.get(interaction.member.user.id)._roles.some(v => guildSettings.get(interaction.guild.id, 'disallowedRoles').includes(v))) {
 				await interaction.reply({ content: 'You don\'t have permission to use this command in this way!', ephemeral: true });
 				return;
@@ -109,7 +109,7 @@ module.exports = {
 		}
 		else if (interaction.options.getString('id')) {
 			// Permissions
-			if (!((interaction.user.id == interaction.guild.ownerId) || interaction.user.permissions.has(Permissions.FLAGS.MANAGE_GUILD))) {
+			if (!((interaction.user.id == interaction.guild.ownerId) || interaction.member.permissions.has(Permissions.FLAGS.MANAGE_GUILD))) {
 				if (guildSettings.get(interaction.guild.id, 'custom') == false) {
 					await interaction.reply({ content: 'You don\'t have permission to use this command in this way!', ephemeral: true });
 					return;

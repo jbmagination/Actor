@@ -61,7 +61,7 @@ module.exports = {
 		}
 
 		// Permissions
-		if (!((interaction.user.id == interaction.guild.ownerId) || interaction.user.permissions.has(Permissions.FLAGS.MANAGE_GUILD))) {
+		if (!((interaction.user.id == interaction.guild.ownerId) || interaction.member.permissions.has(Permissions.FLAGS.MANAGE_GUILD))) {
 			await interaction.reply({ content: 'You don\'t have permission to use this command in this way!', ephemeral: true });
 			return;
 		}
