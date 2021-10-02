@@ -1,3 +1,6 @@
+/* SPDX-License-Identifier: AGPL-3.0 */
+/* Copyright (c) 2021 JBMagination */
+
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { userSettings } = require('../settings.js');
 

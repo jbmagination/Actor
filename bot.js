@@ -1,3 +1,6 @@
+/* SPDX-License-Identifier: AGPL-3.0 */
+/* Copyright (c) 2021 JBMagination */
+
 const fs = require('fs');
 const { Client, Collection, Intents, WebhookClient } = require('discord.js');
 const { secrets } = require('./config.json');
