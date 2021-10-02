@@ -36,7 +36,7 @@ module.exports = {
 			content: `From *${sender}*: ${interaction.options.getString('feedback')}`,
 			username: 'Feedback',
 		});
-		await interaction.reply({ content: `Feedback sent! You are identified as *${sender}*.`, ephemeral: true });
+		await interaction.reply({ content: `Feedback sent! You are identified as *${sender}*.\n\n**\`/feedback\` cannot give you support. Please [join the Discord server](https://discord.gg/A3A9cMc7Uy) for assistance.**`, ephemeral: true });
 	},
 };
 
