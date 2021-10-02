@@ -1,20 +1,15 @@
+/* SPDX-License-Identifier: MIT */
+/* Original, copyright (c) 2017 - 2021 Sanctuary */
+/* Modified, copyright (c) 2021 JBMagination */
+
 const fs = require('fs');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { secrets } = require('./config.json');
 
 const commands = [];
-const commandFile = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-for (const file of commandFile) {
+for (const file of fs.readdirSync('./commands').filter(commandFile => commandFile.endsWith('.js'))) {
 	commands.push(require(`./commands/${file}`).data.toJSON());
 }
 
-(async () => {
-	try {
-		await new REST({ version: '9' }).setToken(secrets.token).put(
-			Routes.applicationCommands(secrets.client),
-			{ body: commands },
-		);
-	}
-	catch (error) { console.error(error); }
-})();
+new REST({ version: '9' }).setToken(secrets.token).put(Routes.applicationCommands(secrets.client), { body: commands });
