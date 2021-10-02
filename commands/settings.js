@@ -44,10 +44,10 @@ module.exports = {
 						.addChoice('Watch Together (Dev)', 'watchdev')
 						.addChoice('Doodle Crew (Dev)', 'doodledev')
 						.addChoice('Word Snacks (Dev)', 'wordsdev')
-						.addChoice('Fake Artist (Dev)', 'artistdev')
+						.addChoice('Sketchy Artist (Dev)', 'artistdev')
 						.addChoice('Decoders (Dev)', 'decodersdev')
 						.addChoice('Click Dis', 'clickdis')
-						.addChoice('Fake Artist', 'artist')
+						.addChoice('Sketchy Artist', 'artist')
 						.addChoice('Custom activities', 'custom')))
 		.addSubcommand(subcommand =>
 			subcommand
