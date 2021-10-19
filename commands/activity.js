@@ -24,7 +24,8 @@ module.exports = {
 						.addChoice('Betrayal.io', 'betrayal')
 						.addChoice('Doodle Crew', 'doodle')
 						.addChoice('Letter Tile', 'letter')
-						.addChoice('Word Snacks', 'words')))
+						.addChoice('Word Snacks', 'words')
+						.addChoice('SpellCast', 'spellcast')))
 		.addSubcommand(subcommand =>
 			subcommand
 				.setName('extra')
@@ -86,7 +87,8 @@ module.exports = {
 			if (interaction.options.getString('activity') == 'chess') { activityID = '832012774040141894'; }
 			if (interaction.options.getString('activity') == 'fishington') { activityID = '814288819477020702'; }
 			if (interaction.options.getString('activity') == 'betrayal') { activityID = '773336526917861400'; }
-
+			if (interaction.options.getString('activity') == 'spellcast') { activityID = '852509694341283871'; }
+			
 			// Extra activities
 			if (interaction.options.getString('activity') == 'doodle') { activityID = '878067389634314250'; }
 			if (interaction.options.getString('activity') == 'doodledev') { activityID = '878067427668275241'; }

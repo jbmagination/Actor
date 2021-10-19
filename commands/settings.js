@@ -33,6 +33,7 @@ module.exports = {
 						.addChoice('Doodle Crew', 'doodle')
 						.addChoice('Letter Tile', 'letter')
 						.addChoice('Word Snacks', 'words')
+						.addChoice('SpellCast', 'spellcast')
 						.addChoice('Poker Night (Dev)', 'pokerdev')
 						.addChoice('Poker Night (Staging)', 'pokerstaging')
 						.addChoice('Poker Night (QA)', 'pokerqa')
