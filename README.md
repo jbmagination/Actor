@@ -5,7 +5,7 @@
 Actor is the best activities bot you'll ever use.
 
 It supports more Discord activities than any other bot:
-- *Actor*: **At least 12 Discord activities**, 23 at most
+- *Actor*: **At least 14 Discord activities**, 24 at most
 - *[Activities](https://github.com/advaith1/activities)*: 8 Discord activities
 - *[Discord Games Lab](https://discord.gg/discordgameslab)*: 8 Discord activities
 - *[Youtube Together](https://top.gg/bot/831408659262472222)*: At least 5 Discord activities, 7 at most
