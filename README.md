@@ -57,10 +57,11 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## Thank you
-- [advaith](https://github.com/advaith1)
+- **[Roux](https://github.com/sudocode1)**
 - [Rauf](https://github.com/ItsRauf)
-- [Evie](https://github.com/eslachance)
 - [derpystuff](https://gitlab.com/derpystuff)
+- [advaith](https://github.com/advaith1)
+- [Evie](https://github.com/eslachance)
 - [CommandLineFox](https://github.com/CommandLineFox)
 - [discord.js](https://github.com/discordjs/discord.js)
 - [Discord Games Lab](https://discord.gg/discordgameslab)
