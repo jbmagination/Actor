@@ -58,11 +58,12 @@ You should have received a copy of the GNU Affero General Public License along w
 
 ## Thank you
 - **[Roux](https://github.com/sudocode1)**
+- [Oxide Hosting](https://oxide.host)
 - [Rauf](https://github.com/ItsRauf)
 - [derpystuff](https://gitlab.com/derpystuff)
+- [Discord Games Lab](https://discord.gg/discordgameslab)
 - [advaith](https://github.com/advaith1)
 - [Evie](https://github.com/eslachance)
 - [CommandLineFox](https://github.com/CommandLineFox)
 - [discord.js](https://github.com/discordjs/discord.js)
-- [Discord Games Lab](https://discord.gg/discordgameslab)
 - [Rythm Community](https://discord.gg/rythm)
