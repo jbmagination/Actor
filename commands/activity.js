@@ -46,8 +46,8 @@ module.exports = {
 						.addChoice('Doodle Crew (Dev)', 'doodledev')
 						.addChoice('Word Snacks (Dev)', 'wordsdev')
 						.addChoice('Sketchy Artist (Dev)', 'artistdev')
+						.addChoice('Putt Dis', 'puttdis')
 						.addChoice('Decoders (Dev)', 'decodersdev')
-						.addChoice('Click Dis', 'clickdis')
 						.addChoice('Sketchy Artist', 'artist')))
 		.addSubcommand(subcommand =>
 			subcommand
@@ -88,7 +88,7 @@ module.exports = {
 			if (interaction.options.getString('activity') == 'fishington') { activityID = '814288819477020702'; }
 			if (interaction.options.getString('activity') == 'betrayal') { activityID = '773336526917861400'; }
 			if (interaction.options.getString('activity') == 'spellcast') { activityID = '852509694341283871'; }
-			
+
 			// Extra activities
 			if (interaction.options.getString('activity') == 'doodle') { activityID = '878067389634314250'; }
 			if (interaction.options.getString('activity') == 'doodledev') { activityID = '878067427668275241'; }
@@ -106,7 +106,7 @@ module.exports = {
 			if (interaction.options.getString('activity') == 'chessdev') { activityID = '832012586023256104'; }
 			if (interaction.options.getString('activity') == 'chessstaging') { activityID = '832012730599735326'; }
 			if (interaction.options.getString('activity') == 'chessqa') { activityID = '832012815819604009'; }
-			if (interaction.options.getString('activity') == 'clickdis') { activityID = '832012854282158180'; }
+			if (interaction.options.getString('activity') == 'puttdis') { activityID = '832012854282158180'; }
 			if (interaction.options.getString('activity') == 'decodersdev') { activityID = '891001866073296967'; }
 		}
 		else if (interaction.options.getString('id')) {
